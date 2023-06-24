@@ -44,6 +44,14 @@ ul li a:hover::after {
 .home img {
   margin: 80px 20px;
 }
+@media screen and (max-width: 700px) {
+  .home img {
+    width: 300px;
+  }
+  .home img {
+    font-size: 25px;
+  }
+}
 .home h2 {
   margin-top: 80px;
   color: #fab327;
