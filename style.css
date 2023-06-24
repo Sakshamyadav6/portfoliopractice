@@ -3,6 +3,7 @@
   background-color: #180629;
   font-family: "Ysabeau Infant", sans-serif;
 }
+/* Nav section starts */
 .navbar ul li a {
   display: flex;
   justify-content: space-around;
@@ -36,6 +37,8 @@ ul li a:hover::after {
 .fa-brands:hover {
   opacity: 0.5;
 }
+/* Nav section Ends */
+/* Home section starts */
 
 .home img {
   margin: 80px 20px;
@@ -91,6 +94,8 @@ ul li a:hover::after {
   background: #fab327;
   z-index: -1;
 }
+/* Home section Ends */
+/* Skills section starts */
 .skillset {
   color: #fab327;
   text-transform: uppercase;
@@ -136,3 +141,34 @@ ul li a:hover::after {
   top: -110px;
   left: 0;
 }
+/* Skill section Ends*/
+/* Card Section Starts  */
+.service {
+  color: #fab327;
+  text-transform: uppercase;
+  font-size: large;
+  letter-spacing: 4px;
+}
+.service h2 {
+  font-size: 80px;
+  font-weight: 700;
+}
+.service h4 {
+  color: #f0f0f0;
+  font-weight: 600;
+  font-size: 35px;
+}
+.service p {
+  letter-spacing: 0;
+}
+.service .card{
+  border: #180629;
+  cursor: pointer;
+  margin: 10px 28px;
+}
+.service .card:hover{
+  border: 3px solid #371853;
+  transition: 0.5s;
+  transform: translatey(20px)
+}
+/* Card Section Ends  */
