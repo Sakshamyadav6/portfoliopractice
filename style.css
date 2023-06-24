@@ -44,28 +44,11 @@ ul li a:hover::after {
 .home img {
   margin: 80px 20px;
 }
-@media screen and (max-width: 700px) {
-  .home img {
-    width: 300px;
-  }
-  .home h2 {
-    font-size: 0px;
-  }
-  .home h1{
-    font-size: 30px;
-  }
-  .home p{
-    text-align:justify;
-    margin-right:auto;
-
-  }
-  
-}
 .home h2 {
   margin-top: 80px;
   color: #fab327;
   font-size: 30px;
-  font-weight: 400 !important;
+  font-weight: 400 ;
   letter-spacing: 2px;
 }
 .home h1 {
@@ -268,3 +251,21 @@ input[type="tel"] {
 /* Contact Section Ends */
 /* Footer Section Starts  */
 /* Footer Section Ends */
+
+@media screen and (max-width: 700px) {
+  .home img {
+    width: 300px;
+  }
+  .home .text h2 {
+    font-size: 25px;
+  }
+  .home h1{
+    font-size: 54px;
+  }
+  .home p{
+    text-align:justify;
+    margin-right:2px;
+
+  }
+  
+}
