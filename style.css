@@ -81,6 +81,11 @@ ul li a:hover::after {
   width: 200px;
   z-index: 1;
 }
+.home .button button a {
+  text-decoration: none;
+  color: #f0f0f0;
+  background: transparent;
+}
 .button span {
   background: transparent;
   height: 100%;
