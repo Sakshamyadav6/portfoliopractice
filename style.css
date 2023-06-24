@@ -25,6 +25,18 @@ ul li a:hover::after {
   width: 100%;
   bottom: 1px;
 }
+.social {
+  font-size: 30px;
+  margin: 12px 17px;
+}
+.fa-brands {
+  color: aliceblue;
+  padding: 2px 18px;
+}
+.fa-brands:hover {
+  opacity: 0.5;
+}
+
 .home img {
   margin: 80px 20px;
 }
