@@ -162,7 +162,7 @@ ul li a:hover::after {
 .service h4 {
   color: #f0f0f0;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 20px;
 }
 .service p {
   letter-spacing: 0;
@@ -191,7 +191,7 @@ ul li a:hover::after {
 .portfolio .card-title {
   color: #f0f0f0;
   letter-spacing: 0;
-  font-size: 35px;
+  font-size: 29px;
   font-weight: 600;
 }
 .portfolio .card {
