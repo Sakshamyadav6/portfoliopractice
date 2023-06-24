@@ -48,7 +48,7 @@ ul li a:hover::after {
   margin-top: 80px;
   color: #fab327;
   font-size: 30px;
-  font-weight: 400 ;
+  font-weight: 400;
   letter-spacing: 2px;
 }
 .home h1 {
@@ -255,17 +255,31 @@ input[type="tel"] {
 @media screen and (max-width: 700px) {
   .home img {
     width: 300px;
+    margin-bottom: auto;
   }
-  .home .text h2 {
-    font-size: 25px;
+  .home h2 {
+    font-size: 20px;
   }
-  .home h1{
-    font-size: 54px;
+  .home h1 {
+    font-size: 50px;
   }
-  .home p{
-    text-align:justify;
-    margin-right:2px;
-
+  .home p {
+    text-align: justify;
+    margin-right: 2px;
   }
-  
+  .service .card-title {
+    font-size: 22px;
+  }
+  .service .card-text {
+    font-size: 15px;
+  }
+  .portfolio .title {
+    font-size: 40px;
+  }
+  .portfolio .card-title {
+    font-size: 28px;
+  }
+  .contact h1 {
+    font-size: 38px;
+  }
 }
