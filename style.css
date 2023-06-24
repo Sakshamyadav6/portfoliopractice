@@ -236,8 +236,13 @@ input[type="tel"] {
     border-bottom: 1px solid #e1a34c;
   }
 }
-.form-control::placeholder{
+.form-control::placeholder {
   font-size: 20px;
+}
+.form input {
+  color: #f0f0f0;
 }
 
 /* Contact Section Ends */
+/* Footer Section Starts  */
+/* Footer Section Ends */
