@@ -48,8 +48,16 @@ ul li a:hover::after {
   .home img {
     width: 300px;
   }
-  .home img {
-    font-size: 25px;
+  .home h2 {
+    font-size: 20px;
+  }
+  .home h1{
+    font-size: 80px;
+  }
+  .home p{
+    text-align:justify;
+    margin-right:auto;
+
   }
 }
 .home h2 {
