@@ -103,7 +103,7 @@ ul li a:hover::after {
   letter-spacing: 4px;
 }
 .skills h2 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
 }
 .skills h4 {
@@ -142,7 +142,7 @@ ul li a:hover::after {
   left: 0;
 }
 /* Skill section Ends*/
-/* Card Section Starts  */
+/* Service Section Starts  */
 .service {
   color: #fab327;
   text-transform: uppercase;
@@ -150,7 +150,7 @@ ul li a:hover::after {
   letter-spacing: 4px;
 }
 .service h2 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
 }
 .service h4 {
@@ -171,4 +171,36 @@ ul li a:hover::after {
   transition: 0.5s;
   transform: translatey(20px)
 }
-/* Card Section Ends  */
+/* Service Section Ends  */
+/* Portfolio Section Starts */
+.portfolio {
+  text-transform: uppercase;
+  font-size: large;
+  margin: 60px 0;
+}
+.portfolio h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.portfolio .card-title{
+  color: #f0f0f0;
+  letter-spacing: 0;
+  font-size:35px;
+  font-weight: 600;
+}
+.portfolio .card{
+  border: #180629;
+  cursor: pointer;
+  margin: 20px 28px;
+}
+.portfolio .card:hover{
+  border: 8px solid #2c1540;
+  border-radius: 16px;
+  transition: 0.5s;
+  transform: translatey(20px)
+}
+
+
+
+
+/* Portfolio Section Ends */
