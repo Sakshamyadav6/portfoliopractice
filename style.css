@@ -4,6 +4,7 @@
   font-family: "Ysabeau Infant", sans-serif;
 }
 /* Nav section starts */
+
 .navbar ul li a {
   display: flex;
   justify-content: space-around;
