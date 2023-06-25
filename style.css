@@ -27,8 +27,8 @@ ul li a:hover::after {
   bottom: 1px;
 }
 .social {
-  font-size: 30px;
-  margin: 12px 17px;
+  font-size: 25px;
+  margin: 12px 10px;
 }
 .fa-brands {
   color: aliceblue;
@@ -250,11 +250,13 @@ input[type="tel"] {
 
 /* Contact Section Ends */
 /* Footer Section Starts  */
-/* Footer Section Ends */
 
+/* Footer Section Ends */
+/* Media queries Responsiveness  */
 @media screen and (max-width: 700px) {
   .home img {
     width: 300px;
+    height: 350px;
     margin-bottom: auto;
   }
   .home h2 {
