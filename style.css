@@ -17,16 +17,18 @@ ul li a::after {
   content: "";
   height: 3px;
   width: 0%;
-  background: #f0f0f0;
+  background: #fab327;
   position: absolute;
   left: 0;
   bottom: 20px;
   transition: 0.8s;
+  color: #fab327;
 }
 ul li a:hover::after {
   width: 100%;
   bottom: 1px;
 }
+
 .social {
   font-size: 25px;
   margin: 12px 10px;
@@ -141,9 +143,9 @@ ul li a:hover::after {
   transition: all 3s ease-in-out;
 }
 
-.progress-bar .percent-text {
-  font-size: 62px;
-  color: #fff;
+.percent-text  {
+  font-size: 60px;
+  color: #fff !important;
   position: absolute;
   top: -110px;
   left: 0;
