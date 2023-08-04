@@ -54,6 +54,33 @@ ul li a:hover::after {
   font-weight: 400;
   letter-spacing: 2px;
 }
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #E1A34C;
+	font-size: 80px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(225,163,76,0); stroke: rgba(225,163,76,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(225,163,76,0); stroke: rgba(225,163,76,1); }
+	80%  {fill: rgba(225,163,76,0); stroke: rgba(225,163,76,1); stroke-width: 3; }
+	100% {
+		fill: rgba(225,163,76,1); stroke: rgba(225,163,76,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #FFFFFF};
+
 .home h1 {
   color: #f0f0f0;
   font-size: 100px;
@@ -176,10 +203,13 @@ ul li a:hover::after {
   margin: 10px 28px;
 }
 .service .card:hover {
-  border: 3px solid #371853;
+  border:3.5px solid #fab327;
   transition: 0.5s;
   transform: translatey(20px);
+    stroke: #fab327;
+
 }
+
 /* Service Section Ends  */
 /* Portfolio Section Starts */
 .portfolio {
@@ -202,9 +232,10 @@ ul li a:hover::after {
   cursor: pointer;
   margin: 20px 28px;
 }
+
 .portfolio .card:hover {
-  border: 8px solid #2c1540;
-  border-radius: 16px;
+  border: 3.5px solid #fab327;
+  border-radius: 6px;
   transition: 0.5s;
   transform: translatey(20px);
 }
@@ -262,6 +293,16 @@ input[type="tel"] {
     height: 350px;
     margin-bottom: auto;
   }
+  svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #E1A34C;
+	font-size: 50px;
+}
   .home h2 {
     font-size: 20px;
   }
@@ -282,35 +323,10 @@ input[type="tel"] {
     font-size: 40px;
   }
   .portfolio .card-title {
-    font-size: 28px;
+    font-size: 24px;
   }
+
   .contact h1 {
     font-size: 38px;
   }
 }
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
-
-svg {
-	font-family: "Russo One", sans-serif;
-	width: 100%; height: 100%;
-}
-svg text {
-	animation: stroke 5s infinite alternate;
-	stroke-width: 2;
-	stroke: #E1A34C;
-	font-size: 80px;
-}
-@keyframes stroke {
-	0%   {
-		fill: rgba(225,163,76,0); stroke: rgba(225,163,76,1);
-		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
-	}
-	70%  {fill: rgba(225,163,76,0); stroke: rgba(225,163,76,1); }
-	80%  {fill: rgba(225,163,76,0); stroke: rgba(225,163,76,1); stroke-width: 3; }
-	100% {
-		fill: rgba(225,163,76,1); stroke: rgba(225,163,76,0);
-		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
-	}
-}
-
-.wrapper {background-color: #FFFFFF};

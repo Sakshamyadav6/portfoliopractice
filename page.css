@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap");
+* {
+  background-color: #180629;
+  font-family: "Ysabeau Infant", sans-serif;
+}
+/* Your existing styles here */
+
+.construction-section {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.construction-container {
+    padding: 20px;
+    background-color: #180629;
+    border-radius: 10px;
+    font-family: Comic Sans MS, cursive;
+    color: white;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
