@@ -7,7 +7,7 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    /> 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -30,6 +30,8 @@
       sizes="16x16"
       href="./public/favicon-16x16.png"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   </head>
 
   <body>
@@ -108,7 +110,7 @@
       <section class="home" id="home">
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="col" data-aos="fade-right">
               <img
                 src="./public/port.jpeg"
                 alt="myself"
@@ -147,7 +149,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6 col-md-6">
-              <div class="row">
+              <div class="row" data-aos="fade-up">
                 <div class="col-lg-4 text-white">
                   <h2 class="fs-1"><i class="fa-solid fa-minus"></i> Myself</h2>
                 </div>
@@ -168,7 +170,7 @@
               </div>
             </div>
             <div class="col-lg-6 mt-5 mt-lg-0 mt-md-0 col-md-6">
-              <div class="row">
+              <div class="row" data-aos="fade-up">
                 <div class="col-lg-3">
                   <h2 class="text-white fs-1">
                     <i class="fa-solid fa-minus"></i> Skills
@@ -205,14 +207,14 @@
       <!-- About Section Ends -->
       <!-- Skills Section Starts  -->
       <section class="skills" id="skills">
-        <div class="container">
+        <div class="container" data-aos="flip-right">
           <div class="row justify-content-center">
             <div class="col-lg-8">
               <div class="section-title text-center">
                 <span class="skillset"
                   ><i class="fa-solid fa-minus"></i>Skills Set</span
                 >
-                <h2 class="title text-white">Expertise</h2>
+                <h2 class="title text-white" data-aos="fade-up">Expertise</h2>
               </div>
             </div>
           </div>
@@ -325,7 +327,7 @@
       <!-- Skills Section Ends  -->
       <!-- Service section Starts  -->
       <section class="service" id="service">
-        <div class="container">
+        <div class="container" data-aos="flip-up">
           <div class="row justify-content-center">
             <div class="col-lg-8 mt-5">
               <div class="section-title text-center">
@@ -383,7 +385,7 @@
       <!-- Service section Ends  -->
       <!-- Portfolio Section Starts  -->
       <section class="portfolio" id="portfolio">
-        <div class="container">
+        <div class="container" data-aos="zoom-in-up">
           <div class="row justify-content-center mt-5">
             <div class="col-lg-8 mt-5">
               <div class="section-title text-center">
@@ -528,7 +530,7 @@
       <!-- Portfolio Section Ends  -->
       <!-- Contact Section Starts  -->
       <section class="contact" id="contact">
-        <div class="container">
+        <div class="container" data-aos="fade-down">
           <div class="row justify-content-center mt-5">
             <div class="col-lg-8 mt-5">
               <div class="section-title text-center">
@@ -558,7 +560,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="form-group col-lg-6 mb-5">
+                <div class="form-group col-lg-12 mb-5">
                   <input
                     type="text"
                     id="name"
@@ -568,7 +570,7 @@
                     required
                   />
                 </div>
-                <div class="form-group col-lg-6 mb-5">
+                <div class="form-group col-lg-12 mb-5">
                   <input
                     type="text"
                     name="email"
@@ -646,6 +648,9 @@
     </main>
     <!-- footer section starts -->
     <!-- Footer Section Ends -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -658,5 +663,8 @@
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
     ></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
